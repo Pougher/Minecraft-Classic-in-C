@@ -2,6 +2,3 @@
 	path = cglm
 	url = https://github.com/recp/cglm
 
-[submodule "glfw"]
-    path = glfw
-    url = https://github.com/glfw/glfw
