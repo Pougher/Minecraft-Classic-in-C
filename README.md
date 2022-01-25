@@ -14,10 +14,7 @@ I must preface this with a quick note:
 > The whole game is roughly 338kB in size, and is compiled with the `-O2` flag. If you are having trouble compiling, or the game is compiling extremely slowly, then remove the `-O2` flag from the Makefile.
 The game as of now also only supports Mac devices, however I may port it to Windows and Linux in the near future.
 First, clone the repository with:
-`$ git clone --recurse-submodules https://github.com/AxolotlC/Minecraft-Classic-in-C.git`
-
-In order to compile the game, you first have to clean up the submodules:
-`$ sh ./setupworkspace.sh`  
+`$ git clone https://github.com/AxolotlC/Minecraft-Classic-in-C.git`
 
 Then, run the following command in your terminal (Mac, should work in Linux):
 
@@ -32,7 +29,7 @@ To run the game, execute the following command:
 
 `$ make run`
 
-#### Copyright Notice:
+#### Copyright Notices:
 
 ```
 The OpenGL Extension Wrangler Library
@@ -41,4 +38,30 @@ Copyright (C) 2002-2008, Milan Ikits <milan ikits[]ieee org>
 Copyright (C) 2002-2008, Marcelo E. Magallon <mmagallo[]debian org>
 Copyright (C) 2002, Lev Povalahev
 All rights reserved.
+```
+
+### License:
+
+```
+MIT License
+
+Copyright (c) [year] [fullname]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
 ```
