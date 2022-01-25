@@ -14,7 +14,7 @@ I must preface this with a quick note:
 > The whole game is roughly 338kB in size, and is compiled with the `-O2` flag. If you are having trouble compiling, or the game is compiling extremely slowly, then remove the `-O2` flag from the Makefile.
 The game as of now also only supports Mac devices, however I may port it to Windows and Linux in the near future.
 First, clone the repository with:
-`$ git clone --recurse-submodules https://github.com/AxolotlC/Minecraft-Classic-in-C.git
+`$ git clone --recurse-submodules https://github.com/AxolotlC/Minecraft-Classic-in-C.git`
 
 In order to compile the game, you first have to clean up the submodules:
 `$ sh ./setupworkspace.sh`  
@@ -25,11 +25,8 @@ Then, run the following command in your terminal (Mac, should work in Linux):
 
 If you've made any changes, or `make` is returning a message similar to `make: 'bin/minecraft' is up to date.`, pleased compile with the `-B` option on `make`.
 
-Before running this, make sure you are in the root directory of the project.
-
-
-
 ### Running
+Before running this, make sure you are in the root directory of the project.
 
 To run the game, execute the following command:
 
